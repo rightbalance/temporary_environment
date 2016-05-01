@@ -1,8 +1,5 @@
 # TemporaryEnvironment
-
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/temporary_environment`. To experiment with that code, run `bin/console` for an interactive prompt.
-
-TODO: Delete this and the text above, and describe your gem
+Set a temporary environment variable for a duration of a block
 
 ## Installation
 
@@ -22,7 +19,18 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+```ruby
+require 'temporary_environment'
+
+puts ENV['MY_AWESOME_ENV_VARIABLE'] # nil
+
+TemporaryEnvironment.with_env_variable(key: 'MY_AWESOME_ENV_VARIABLE', value: 'SOME_USEFUL_VALUE') do
+  puts ENV['MY_AWESOME_ENV_VARIABLE'] # SOME_USEFUL_VALUE
+end
+
+puts ENV['MY_AWESOME_ENV_VARIABLE'] # nil
+```
+
 
 ## Development
 
@@ -38,4 +46,3 @@ Bug reports and pull requests are welcome on GitHub at https://github.com/[USERN
 ## License
 
 The gem is available as open source under the terms of the [MIT License](http://opensource.org/licenses/MIT).
-
