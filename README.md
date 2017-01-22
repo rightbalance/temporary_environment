@@ -1,5 +1,7 @@
-# TemporaryEnvironment
+# temporary_environment
 Set a temporary environment variable for a duration of a block
+
+![Temporary Environment Gem Logo](logos/logo.png)
 
 ## Installation
 
@@ -40,9 +42,9 @@ To install this gem onto your local machine, run `bundle exec rake install`. To 
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/[USERNAME]/temporary_environment. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](contributor-covenant.org) code of conduct.
+Bug reports and pull requests are welcome on GitHub at https://github.com/[USERNAME]/temporary_environment. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](http://contributor-covenant.org) code of conduct.
 
 
 ## License
 
-The gem is available as open source under the terms of the [MIT License](http://opensource.org/licenses/MIT).
+The gem is available as open source under the terms of the [MIT License](http://opensource.org/licenses/MIT). Cloud graphic is provided by [Freepik](http://www.flaticon.com/authors/freepik) [Flaticon](http://www.flaticon.com/) which is licensed under [Creative Commons 3.0](http://creativecommons.org/licenses/by/3.0/). Made with [Logo Maker](http://logomakr.com).
