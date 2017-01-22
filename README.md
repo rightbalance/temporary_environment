@@ -1,5 +1,5 @@
 # temporary_environment
-Set a temporary environment variable for a duration of a block
+Set a temporary environment variable for a duration of a block.
 
 ![Temporary Environment Gem Logo](logos/logo.png)
 
